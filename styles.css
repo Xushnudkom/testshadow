@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./desktop-wallpaper-black-gaming-black-gamer\ \(1\).jpg);
+    background-size: cover;
+    
+}
+.container{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.box{
+    width: 400px;
+    height: 300px;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    padding: 100px 50px;
+    position: absolute;
+    margin-left: -40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgb(205, 221, 198);
+    transition: all 0.5s ease;
+}
+.box:hover {
+    scale: 1.1;
+    box-shadow: 1px 1px 25px 1px rgb(205, 221, 198);
+}
+
+.password_input{
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 15px;
+    
+}
+
+/* .required{
+    margin-top: 10px;
+    font-family: sans-serif;
+} */
+.easy{
+    color: rgb(211, 24, 24);
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    border-top: 2px solid rgb(211, 24, 24);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 1px;
+    
+       
+}
+
+.normal{
+    color: rgb(234, 234, 5);
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-top: 2px solid rgb(234, 234, 5);
+    text-align: center;
+    padding-top: 10px;
+}
+.strong{
+    color: rgba(15, 240, 15, 0.89);
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-top: 2px solid rgba(15, 240, 15, 0.89);
+    text-align: center;
+    padding-top: 10px;
+}
+span{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+
+}
+span:hover{
+    scale: 1.1;
+}
